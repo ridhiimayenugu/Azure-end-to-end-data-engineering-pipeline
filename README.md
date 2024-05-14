@@ -17,12 +17,18 @@ Architecture:
 
 Projects linked deployed:
 Azure Data Factory Data Ingestion Pipeline: https://adf.azure.com/en/authoring/pipeline/DataIngestion%20Pipeline?factory=%2Fsubscriptions%2Fe5717317-972d-4a27-bb81-6fbfb0e4f3ad%2FresourceGroups%2Fridhi-data-engineering-project%2Fproviders%2FMicrosoft.DataFactory%2Ffactories%2Fpipeline-app-adf
+
 Azure Databricks Data Transformation:
+
 https://adb-19467951917785.5.azuredatabricks.net/browse/folders/107474624241936?o=19467951917785
+
 Azure Synapse Analytics Data Loading:
 https://web.azuresynapse.net/en/authoring/orchestrate/pipeline/Create%20View?workspace=%2Fsubscriptions%2Fe5717317-972d-4a27-bb81-6fbfb0e4f3ad%2FresourceGroups%2Fridhi-data-engineering-project%2Fproviders%2FMicrosoft.Synapse%2Fworkspaces%2Fsynapseload
+
 Power BI report published to service:
-Sales - Power BI
+
+https://app.powerbi.com/groups/me/reports/0436e390-b157-4499-b783-01505b8188bd/ReportSection?experience=power-bi
+
 Environment Set up:
 1.)Create resource group on Azure portal:
  
