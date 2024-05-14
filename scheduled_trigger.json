@@ -1,0 +1,24 @@
+{
+    "name": "scheduled_trigger",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "DataIngestion Pipeline",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Minute",
+                "interval": 15,
+                "startTime": "2024-05-14T00:33:00",
+                "timeZone": "Eastern Standard Time"
+            }
+        }
+    }
+}
