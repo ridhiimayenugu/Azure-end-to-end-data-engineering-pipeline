@@ -8,26 +8,25 @@ Azure Data Engineering Project:
 6.	Azure Active Directory (AAD) and
 7.	Microsoft Power BI
 The use case for this project is building an end-to-end data solution by ingesting the tables from on-premises SQL Server database using Azure Data Factory and then store the data in Azure Data Lake. Azure databricks is used to transform the RAW data to the cleanest form of data and we are using Azure Synapse Analytics to load the clean data. Finally, Microsoft Power BI is used to integrate with Azure synapse analytics to build an interactive dashboard. Also, we are using Azure Active Directory (AAD) and Azure Key Vault for monitoring and governance purposes. Please go through this document to understand the step-by-step process of how I have implemented this project. The data source for this project is GitHub – Adventureworks database provided by Microsoft.
-Architecture:
- 
-
-
-
-
 
 Projects linked deployed:
-Azure Data Factory Data Ingestion Pipeline: https://adf.azure.com/en/authoring/pipeline/DataIngestion%20Pipeline?factory=%2Fsubscriptions%2Fe5717317-972d-4a27-bb81-6fbfb0e4f3ad%2FresourceGroups%2Fridhi-data-engineering-project%2Fproviders%2FMicrosoft.DataFactory%2Ffactories%2Fpipeline-app-adf
+GitHub Repository: All the project data files with code are attached on the GitHub repository.
+https://github.com/ridhiimayenugu/Azure-end-to-end-data-engineering-pipeline
+
+Azure Data Factory Data Ingestion Pipeline:
+https://adf.azure.com/en/authoring/pipeline/DataIngestion%20Pipeline?factory=%2Fsubscriptions%2Fe5717317-972d-4a27-bb81-6fbfb0e4f3ad%2FresourceGroups%2Fridhi-data-engineering-project%2Fproviders%2FMicrosoft.DataFactory%2Ffactories%2Fpipeline-app-adf
 
 Azure Databricks Data Transformation:
-
 https://adb-19467951917785.5.azuredatabricks.net/browse/folders/107474624241936?o=19467951917785
 
 Azure Synapse Analytics Data Loading:
 https://web.azuresynapse.net/en/authoring/orchestrate/pipeline/Create%20View?workspace=%2Fsubscriptions%2Fe5717317-972d-4a27-bb81-6fbfb0e4f3ad%2FresourceGroups%2Fridhi-data-engineering-project%2Fproviders%2FMicrosoft.Synapse%2Fworkspaces%2Fsynapseload
 
 Power BI report published to service:
-
 https://app.powerbi.com/groups/me/reports/0436e390-b157-4499-b783-01505b8188bd/ReportSection?experience=power-bi
+
+Important Note: All above links are deployed on Azure portal. 
+
 
 Environment Set up:
 1.)Create resource group on Azure portal:
