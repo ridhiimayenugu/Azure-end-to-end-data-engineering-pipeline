@@ -1,0 +1,22 @@
+{
+    "now": "2024-05-14T14:25:03.604Z",
+    "perfNow": 53690593.099999964,
+    "diagnosticCorrelation": "3ab03809-0a84-442e-bd31-7af4f4719155",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "a365",
+        "buildVersion": "24.0423.07",
+        "environmentType": 9,
+        "resourceName": "synapseload",
+        "resourceRegion": "eastus",
+        "resourceGroup": "ridhi-data-engineering-project",
+        "subscriptionId": "e5717317-972d-4a27-bb81-6fbfb0e4f3ad",
+        "sessionId": "tNfIy",
+        "operationId": "tQTEi",
+        "gitType": "live"
+    },
+    "additionalInfo": {
+        "selectedResource": "Create View",
+        "selectedResourceType": "pipeline"
+    }
+}
